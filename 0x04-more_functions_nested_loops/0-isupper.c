@@ -1,12 +1,12 @@
 #include "main.h"
 /**
   * _isupper - changes the charachters to uppercase
-  *Return: always 0
+  * Return: 0 or 1
   *@c: the charachter to be changed
   */
 int _isupper(int c)
 {
-	if (c >= 97 && c <= 122)
+	if (c >= 'A' && c <= 'Z')
 		return (0);
 	else
 		return (1);
