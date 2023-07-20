@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-  *main - prints the numbers from 1 to 100, 
+  *main - prints the numbers from 1 to 100,
   *multiples of 3 of prints izz,
   *5 bizz and15 by fizzbizz
   *Return: 0 always
