@@ -1,0 +1,11 @@
+#include "main.h"
+#include <unistd>
+/**
+ *_putchar - calculate the absoulute value.
+ *@c: input char
+ * Return: the char value.
+ */
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
