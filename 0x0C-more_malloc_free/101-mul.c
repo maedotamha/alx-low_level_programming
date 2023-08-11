@@ -12,7 +12,7 @@
 int is_digit(char *s)
 {
 	int i = 0;
-	
+
 	while (s[i])
 	{
 		if (s[i] < '0' || s[i] > '9')
@@ -42,8 +42,8 @@ int _strlen(char *s)
  */
 void errors(void)
 {
-        printf("Error\n");
-        exit(98);
+	printf("Error\n");
+	exit(98);
 }
 /**
  * main - multiplies
@@ -90,7 +90,7 @@ int main(int argc, char *argv[])
 	}
 	if (!a)
 		_putchar('0');
-        _putchar('\n');
+	_putchar('\n');
 	free(result);
 	return (0);
 }
