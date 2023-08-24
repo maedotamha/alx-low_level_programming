@@ -4,7 +4,6 @@
 /**
  *print_list - Prints all elements of a list_t list.
  *@h: Pointer to the structure list_t.
- *
  *Return: Number of nodes.
  */
 
